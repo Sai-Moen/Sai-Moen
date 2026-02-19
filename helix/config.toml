@@ -20,13 +20,13 @@ enable = false
 supersede-menu = false
 
 [keys.normal]
-tab = "move_parent_node_end"
-S-tab = "move_parent_node_start"
+tab = "jump_forward"
+S-tab = "jump_backward"
 
 [keys.insert]
-tab = "move_parent_node_end"
-S-tab = "move_parent_node_start"
+tab = "insert_tab"
+S-tab = "extend_prev_word_end"
 
 [keys.select]
-tab = "extend_parent_node_end"
-S-tab = "extend_parent_node_start"
+tab = "jump_forward"
+S-tab = "jump_backward"
