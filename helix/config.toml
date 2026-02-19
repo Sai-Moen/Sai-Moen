@@ -18,3 +18,15 @@ auto-pairs = false
 [editor.smart-tab]
 enable = false
 supersede-menu = false
+
+[keys.normal]
+tab = "move_parent_node_end"
+S-tab = "move_parent_node_start"
+
+[keys.insert]
+tab = "move_parent_node_end"
+S-tab = "move_parent_node_start"
+
+[keys.select]
+tab = "extend_parent_node_end"
+S-tab = "extend_parent_node_start"
