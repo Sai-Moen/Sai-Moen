@@ -1,0 +1,20 @@
+theme = "doom_acario_dark"
+
+[editor]
+mouse = false
+auto-completion = false
+auto-format = false
+line-number = "relative"
+indent-heuristic = "simple"
+rulers = [128, 256]
+text-width = 128
+trim-trailing-whitespace = true
+trim-final-newlines = true
+insert-final-newline = true
+scrolloff = 8
+scroll-lines = 8
+auto-pairs = false
+
+[editor.smart-tab]
+enable = false
+supersede-menu = false
