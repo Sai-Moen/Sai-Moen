@@ -1,0 +1,22 @@
+hide-cursor-when-typing = true
+
+[window]
+mode = "maximized"
+decorations = "disabled"
+
+[editor]
+program = "hx"
+args = []
+
+[fonts]
+family = "Hack Nerd Font Mono"
+
+[keyboard]
+use-kitty-keyboard-protocol = true
+
+[Scroll]
+multiplier = 8
+divider = 1
+
+[platform]
+windows.shell = { program = "pwsh", args = [] }
